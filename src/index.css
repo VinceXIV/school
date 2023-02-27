@@ -8,3 +8,8 @@
   width: 80vw;
   margin: auto;
 }
+
+.btn {
+  min-width: 10rem;
+  cursor: pointer;
+}
