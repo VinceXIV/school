@@ -1,0 +1,33 @@
+#login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: max-content;
+}
+
+#login-form .input {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+#login .input input {
+    min-width: 10rem;
+}
+
+#login .container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#login .container #login-form {
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+#login #submit-input {
+    display: flex;
+    justify-content: flex-end;
+    min-width: 10rem;
+}
