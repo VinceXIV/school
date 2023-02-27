@@ -1,0 +1,19 @@
+#navbar .container {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    justify-content: space-between;
+}
+
+#navbar #navbar-options {
+    display: flex;
+    gap: 1rem;
+}
+
+#navbar ul li {
+    list-style: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
