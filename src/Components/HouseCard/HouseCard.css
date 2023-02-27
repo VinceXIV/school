@@ -1,0 +1,40 @@
+#house-card {
+    padding: 1rem;
+    width: max-content;
+    border-radius: 0.5rem;
+    border: 0.1rem grey solid;
+}
+
+#house-card .house-img {
+    width: 12rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+#house-card .house-img img {
+    object-fit: cover;
+    width: 100%;
+    margin: auto;
+}
+
+#house-card .house-details {
+    display: flex;
+    flex-direction: column;
+}
+
+#house-card .house-details .detail {
+    display: flex;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    justify-content: space-between;
+}
+
+#house-card #book-appointment-btn {
+    outline: none;
+    border: none;
+    margin-top: 1.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0.3rem;
+}
